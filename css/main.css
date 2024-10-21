@@ -1,0 +1,91 @@
+header nav.navbar{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 1em;
+}
+
+#saudacao h1{
+    font-size: 3em;
+}
+
+#notificacoes {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#notificacoes svg {
+    width: 10%;
+}
+
+#notificacoes span {
+    width: 90%;
+}
+
+.notificacao {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+#aulas {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#menu-aulas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lista-aulas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.nome-aula, .nome-materia {
+    font-weight: 600;
+}
+
+.sala-horario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aula {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#sessoes-atuais {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sessao {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.btn-criar {
+    color: white;
+    width: 100%;
+}
