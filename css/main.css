@@ -72,6 +72,39 @@ main {
     border-radius: 5px;
 }
 
+#notas {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#menu-notas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lista-notas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.nome-nota {
+    font-weight: 600;
+}
+
+.nota {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 #sessoes-atuais {
     display: flex;
     flex-wrap: wrap;
@@ -93,3 +126,31 @@ main {
 svg {
     color: #0a599b;
 }
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#formulario-criar-sessao {
+    margin-top: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.form-group {
+    font-weight: 500;
+}
+
